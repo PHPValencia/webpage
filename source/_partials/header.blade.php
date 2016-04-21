@@ -4,8 +4,9 @@
         <h1>PHP Valencia</h1>
         <nav>
             <ul>
-                <li><a href="/" class="selected">¿Qué es?</a></li>
+                <li><a href="/">¿Qué es?</a></li>
                 <li><a href="/past">Anteriores</a></li>
+                <li><a href="/host-the-event">Aloja el evento</a></li>
             </ul>
         </nav>
     </div>
