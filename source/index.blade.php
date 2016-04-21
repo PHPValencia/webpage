@@ -5,7 +5,7 @@
         Grupo local de desarrolladores web que usan el lenguaje #PHP. Y, como siempre, después de cada charla, algunos van a cenar por la zona, ¡todos sois bienvenidos!
     </p>
     <h2 class="centered orange scream">
-        Próximo meetup: <span>jueves 7 abril 2016, 19:00h</span>
+        Último meetup: <span>jueves 7 abril 2016, 19:00h</span>
     </h2>
     <div class="clearfix">
         <section class="content single">
