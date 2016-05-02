@@ -5,24 +5,26 @@
         Grupo local de desarrolladores web que usan el lenguaje #PHP. Y, como siempre, después de cada charla, algunos van a cenar por la zona, ¡todos sois bienvenidos!
     </p>
     <h2 class="centered orange scream">
-        Último meetup: <span>jueves 7 abril 2016, 19:00h</span>
+        Próximo meetup: <span>jueves 5 abril 2016, 19:00h</span>
     </h2>
     <div class="clearfix">
         <section class="content single">
-            <h2>Refactoring colaborativo</h2>
-            <p>¿Alguna vez te ha pasado estar trabajando en un código que cada vez se te atraganta más? Ya no es mantenible y cada nuevo cambio te cuesta más tiempo y esfuerzo que el anterior.</p>
-            <p>Creo que todos hemos experimentado esa sensación... Y no mola nada.</p>
-            <p>Afortunadamente, como casi todo en la vida, ese problema tiene una solución: <b>refactorizar tu código</b>.</p>
-            <p>Pues bien, en esta ocasión, la reunión de PHP Valencia no va a consistir en una charla como hacemos habitualmente. En lugar de zeso, <b>haremos ¡una sesión de refactoring colaborativa!</b></p>
-            <p>Valentin Rusev (<a href="https://twitter.com/kolbyfloyd">@kolbyfloyd</a>), un conocido miembro de la comunidad, tiene un problema con el código de un componente de su proyecto: <a href="http://festop.com">Festop</a>. El objetivo de la reunión es que analicemos su problema y refactoricemos su código entre todos.</p>
-            <p>Si no sabes muy bien en qué consiste un proceso de <b>refactor</b>, te diré que <b>hablaremos de testing, patrones y buenas prácticas</b>. Así que, ¡no pierdas esta oportunidad de aprender!</p>
-            <p>Por otra parte,<b>&nbsp;la reunión de este mes tendrá lugar en las oficinas de <a href="http://onestic.com/">Onestic</a>&nbsp;</b>(C/ Roger de Lauria 19, 4º piso, Despacho B), que se ha ofrecido amablemente a acogernos.</p>
-            <p>Y recuerda que, después de la reunión, algunos nos quedaremos a cenar en algún bar de la zona. ¡Apúntate a la cena! que es una ocasión perfecta para conocernos mejor :)</p>
-            <p>¡Nos vemos el jueves 7 de abril a las 19:00 en las oficinas de Onestic!</p>
+            <h2>Aplicaciones en tiempo real con Symfony, NodeJS y Arduino</h2>
+            <p>Normalmente, como desarrolladores de PHP, no podemos "tocar" lo que programamos. Siempre estamos delante de una pantalla y comprobamos el resultado de nuestro código en ella.</p>
+            <p>Sin embargo, esto cambia cuando metemos hardware en nuestro desarrollo: como una Raspberry Pi o un Arduino. Entonces el resultado de tu código se hace palpable.</p>
+            <p>En la charla de mayo, Pablo Cabello nos hablará precisamente de eso. Pablo ha desarrollado <a href="http://riegoeco.com">RiegoEco</a>. Un sistema en el que, mediante Symfony 2, Node JS y un Arduino, es capaz de controlar el sistema de riego de una plantalación. En palabras suyas:</p>
+            <p>"El sistema se basa en una integración del Arduino Yun la cual es posible controlar desde una conexión externa a una red local.&nbsp; <br> <br>Todo esto es manejado desde la web con una interfaz muy sencilla que nos permite ejecutar ordenes y ver el estado de la placa Arduino. <br> <br>Para hacerlo posible se dispone de un servidor, en el que se ha optado por utilizar PHP con Symfony y NodeJs. Con esto se conforma un sistema en tiempo real y con ordenes directas entre el usuario y el Arduino. <br> <br>A la vez se ha realizado una aplicación Android que nos dota de notificaciones automáticas y configurables por el usuario desde la web. <br> <br>Intentaré centrarme en como se ha estructurado el proyecto y ver por encima como interactuan cada uno de los lenguajes que forman el proyecto. <br> <br>Los temas que trataremos serán:&nbsp;</p>
+            <p>•&nbsp;<span>Arquitectura del sistema.&nbsp;</span></p>
+            <p><span>•&nbsp;Comunicaciones bidireccionales.</span></p>
+            <p>•&nbsp;<span>A</span><span>bstracción en la programación del Arduino.</span></p>
+            <p><span>•&nbsp;Interacción entre aplicación Symfony y NodeJs"</span></p>
+            <p>Interesante ¿eh? Pues ¡no te lo pierdas! Lo haremos el <b>jueves día 5 a las 19:00 en Geekshubs.</b></p>
+            <p>Y recuerda que después de la charla de Pablo, algunos nos iremos a cenar por algún bar de la zona. ¡Vente con nosotros!</p>
+            <p>¡Nos vemos el jueves!</p>
         </section>
         <h2 class="centered orange scream margin_bottom_10">Localización</h2>
         <section class="full_box home">
-            <iframe width="620" height="420" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style="border:0" allowfullscreen="" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3080.001451422977!2d-0.37546098429629676!3d39.46929592063456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6048b49288402f%3A0xb81063d531eaa618!2sCarrer+de+Roger+de+Ll%C3%B2ria%2C+19%2C+46002+Val%C3%A8ncia%2C+Valencia!5e0!3m2!1ses!2ses!4v1459946698711"></iframe>
+            <iframe width="620" height="420" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style="border:0" allowfullscreen="" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.565198398508!2d-0.3572013842960958!3d39.47915042004663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604898947abad3%3A0x5aae0e0b7fa0358a!2sGeeksHubs+Space!5e0!3m2!1ses!2ses!4v1454450684390"></iframe>
             <br>
         </section>
     </div>
