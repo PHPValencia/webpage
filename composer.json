@@ -2,7 +2,7 @@
     "name": "php-valencia/website",
     "description": "This is the PHPValencia's website",
     "require": {
-        "tightenco/jigsaw": "^0.5.0"
+        "tightenco/jigsaw": "^1.0"
     },
     "authors": [
         {
