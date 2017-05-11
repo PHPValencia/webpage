@@ -39,7 +39,7 @@ class MeetupImporter {
 	public function getEvents() {
 		$eventsData = $this->getUpcomingEvents();
 		$events = [];
-		foreach( $eventsData as $eventData ) {
+		foreach($eventsData as $eventData) {
 			$events[] = EventFactory::build( $eventData );
 		}
 		return $events;
