@@ -2,7 +2,7 @@
 
 @section('contents')
     <p class="eyelet margin_top_0">
-        Grupo local de desarrolladores web que usan el lenguaje #PHP. Y, como siempre, después de cada charla, algunos van a cenar por la zona, ¡todos sois bienvenidos!
+        {{ $page->community->description }}
     </p>
     <h2 class="centered orange scream">
         Próximo meetup: <span>jueves 5 abril 2016, 19:00h</span>

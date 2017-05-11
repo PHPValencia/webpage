@@ -1,12 +1,12 @@
 <header class="clearfix">
     <div class="hgroup clearfix">
         <img class="logo" src="/img/logo.png">
-        <h1>PHP Valencia</h1>
+        <h1>{{ $page->community->name }}</h1>
         <nav>
             <ul>
-                <li><a href="/">¿Qué es?</a></li>
-                <li><a href="/past">Anteriores</a></li>
-                <li><a href="/host-the-event">Aloja el evento</a></li>
+                @foreach ($page->menu as $item)
+                    <li><a href="{{ $item->url }}">{{ $item->title }}</a></li>
+                @endforeach
             </ul>
         </nav>
     </div>
