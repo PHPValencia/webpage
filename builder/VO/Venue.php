@@ -7,4 +7,9 @@ class Venue {
 
 	public $latitude;
 	public $longitude;
+
+	public function __toString()
+    {
+        return $this->name;
+    }
 }

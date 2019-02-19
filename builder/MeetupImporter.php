@@ -8,11 +8,7 @@
 
 namespace Builder;
 
-require __DIR__ .'/../vendor/autoload.php';
-
 use Builder\Factory\EventFactory;
-use Builder\VO\Event;
-use Builder\VO\Venue;
 use MeetupEvents;
 use MeetupKeyAuthConnection;
 
@@ -46,9 +42,3 @@ class MeetupImporter {
 	}
 }
 
-$environmentLoader = new \josegonzalez\Dotenv\Loader(__DIR__.'/../.env');
-$environmentVars = $environmentLoader->parse()->toArray();
-
-$importer = new MeetupImporter( $environmentVars['API_KEY'], $environmentVars['MEETUP_GROUP_IDENTIFIER'] );
-
-var_dump( $importer->getEvents() );
