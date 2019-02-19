@@ -2,12 +2,12 @@
 
 require __DIR__ . '/vendor/autoload.php';
 
-use Builder\MeetupImporter;
+use MeetupImporter\Importer;
 
 $environmentLoader = new \josegonzalez\Dotenv\Loader(__DIR__.'/.env');
 $environmentVars = $environmentLoader->parse()->toArray();
 
-$importer = new MeetupImporter($environmentVars['API_KEY'], $environmentVars['MEETUP_GROUP_IDENTIFIER']);
+$importer = new Importer($environmentVars['API_KEY'], $environmentVars['MEETUP_GROUP_IDENTIFIER']);
 $events = $importer->getEvents();
 
 foreach ($events as $event) {

@@ -1,5 +1,5 @@
 <?php
-namespace Builder\VO;
+namespace MeetupImporter\VO;
 
 class Venue {
 	public $name;

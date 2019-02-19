@@ -1,7 +1,7 @@
 <?php
-namespace Builder\Factory;
+namespace MeetupImporter\Factory;
 
-use Builder\VO\Event;
+use MeetupImporter\VO\Event;
 
 class EventFactory {
 

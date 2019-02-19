@@ -6,13 +6,13 @@
  * Time: 8:55 PM
  */
 
-namespace Builder;
+namespace MeetupImporter;
 
-use Builder\Factory\EventFactory;
+use MeetupImporter\Factory\EventFactory;
 use MeetupEvents;
 use MeetupKeyAuthConnection;
 
-class MeetupImporter {
+class Importer {
 
 	private $apiKey;
 	private $meetupGroupIdentifier;
