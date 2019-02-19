@@ -1,10 +1,10 @@
 <?php
 
-require __DIR__ . '/vendor/autoload.php';
+require __DIR__ . '/../vendor/autoload.php';
 
 use MeetupImporter\Importer;
 
-$environmentLoader = new \josegonzalez\Dotenv\Loader(__DIR__.'/.env');
+$environmentLoader = new \josegonzalez\Dotenv\Loader(__DIR__.'/../.env');
 $environmentVars = $environmentLoader->parse()->toArray();
 
 $importer = new Importer($environmentVars['API_KEY'], $environmentVars['MEETUP_GROUP_IDENTIFIER']);
