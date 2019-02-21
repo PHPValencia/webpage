@@ -2,7 +2,7 @@
 
 @section('contents')
     @foreach ($events as $event)
-        <h3 class="centered past">{{ $page->formattedDate($event->date) }}, {{ $event->start }}</h3>
+        <h3 class="centered past">{{ $page->formattedDate($event->when) }}</h3>
 
         <div class="clearfix">
             <section class="content single">

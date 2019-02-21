@@ -1,5 +1,6 @@
 /build_local/
 /node_modules/
 /vendor/
+/source/_events/
 .idea
 .env

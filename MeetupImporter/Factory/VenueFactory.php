@@ -1,7 +1,7 @@
 <?php
-namespace Builder\Factory;
+namespace MeetupImporter\Factory;
 
-use Builder\VO\Venue;
+use MeetupImporter\VO\Venue;
 
 class VenueFactory {
 	public static function build( array $data ) {

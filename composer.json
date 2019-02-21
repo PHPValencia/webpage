@@ -9,7 +9,7 @@
         "josegonzalez/dotenv": "2.1.0"
     },
     "autoload": {
-        "psr-4": {"Builder\\": "builder/"}
+        "psr-4": {"MeetupImporter\\": "MeetupImporter/"}
     },
     "minimum-stability": "dev",
     "authors": [

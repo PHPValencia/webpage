@@ -6,17 +6,13 @@
  * Time: 8:55 PM
  */
 
-namespace Builder;
+namespace MeetupImporter;
 
-require __DIR__ .'/../vendor/autoload.php';
-
-use Builder\Factory\EventFactory;
-use Builder\VO\Event;
-use Builder\VO\Venue;
+use MeetupImporter\Factory\EventFactory;
 use MeetupEvents;
 use MeetupKeyAuthConnection;
 
-class MeetupImporter {
+class Importer {
 
 	private $apiKey;
 	private $meetupGroupIdentifier;
@@ -46,9 +42,3 @@ class MeetupImporter {
 	}
 }
 
-$environmentLoader = new \josegonzalez\Dotenv\Loader(__DIR__.'/../.env');
-$environmentVars = $environmentLoader->parse()->toArray();
-
-$importer = new MeetupImporter( $environmentVars['API_KEY'], $environmentVars['MEETUP_GROUP_IDENTIFIER'] );
-
-var_dump( $importer->getEvents() );
